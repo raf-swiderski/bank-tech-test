@@ -15,7 +15,7 @@ I want to be able to print my bank statement
 ```
 
 
-##Setup
+## Setup
 
 Clone the repo
 
@@ -23,7 +23,7 @@ Clone the repo
 ```
 open SpecRunner.html
 ```
-#Run the code and interact with the program
+# Run the code and interact with the program
 ```
 open index.html
 ```
