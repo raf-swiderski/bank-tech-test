@@ -64,7 +64,7 @@ Your functioning program should look something like this:
 1. TDD
     Following the red, green, refactor approach, working one feature at a time and writing the tests first.
     I've used Jasmine as the testing framework.
-2. Code Structure
+2. Code Structure\n
     SRP: Having one JS function for each feature, that way it becomes easier for the user to interact with the program & test the features, and it makes the code easier to read for other developers.
     I used an array of hashes to record the transactions, stored in one variable (called 'this.transactions'), because it kept the code readable when iterating over the array, and it was easy to access each value.
     I used a constructor function to set up the balance variable and the transactions record automatically when the class instance was created.
