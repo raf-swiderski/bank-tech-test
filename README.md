@@ -71,3 +71,11 @@ Your functioning program should look something like this:
 3. Project
     I've included setup instructions and a list of commands, including a screenshot of what an interaction with this program might look like. 
     I've included an 'index.html' file, which makes it easier to run the code, using one command, and instructions on where to find the console.
+
+### Self Assessment:
+
+- I searched for some ways to test the logging to the console (for the 'statement' method), but i couldn't figure out a way to do it -  i would appreciate some help on this! I've left a commet on what i had so far with that test.
+
+ - I've commited in some good places, but in hindsight i should have made a commit to github after creating every tests and passing every test, as opposed to getting carried away with writing the code and commiting only after i passed 4 tests!
+
+ - I also added in a section to explain my approach, as i didn't have  this initially. 
