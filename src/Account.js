@@ -3,14 +3,12 @@ class Account {
         this.balance = 0;
         this.transactions = [];
     }
-    //credit
     deposit = (amount, date) => {
         this.balance += amount
         this.transactions.push(
             { "type": "credit", "amount": amount, "date": date, "balance": this.balance }
             );
     }
-    //debit
     withdraw = (amount, date) => {
         this.balance -= amount
         this.transactions.push(
