@@ -15,9 +15,11 @@ class Account {
             { "type": "debit", "amount": amount, "date": date, "balance": this.balance }
             );
     }
+    //Logs the bank statement to the console
     statement() {
         let statement = this.transactions.reverse();
         console.log("date || credit || debit || balance");
+        // Each 'forEach' iteration is one transaction (or one hash in the array)
         statement.forEach(function(transaction) {
             if (transaction["type"] === "credit") {
                 console.log(
@@ -36,6 +38,8 @@ class Account {
                     transaction["balance"]);
               
             };
+            //  One  conditional has the '||' in a different place, 
+            //  to indicate whether the transactions  was debit or credit.
         })
     };
     
