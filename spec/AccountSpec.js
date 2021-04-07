@@ -38,12 +38,13 @@ describe("Account", function() {
         ]);
     });
 
+//Here i was trying to test logging something to the console, but couldn't find out how to test it, so i wrote the method out anyway.
+
     // it("should be able to print a bank statement", function() {
     //     account.deposit(200, "12-01-2012");
     //     account.withdraw(40, "13-01-2012");
     //     account.withdraw(100, "14-01-2012");
-    //     expect(account.statement).toEqual(
-            
-    //     )
-    // }
+    //     subject = account.statement();
+    //     expect(subject).toEqual("date || credit || debit || balance\n14-01-2012 || || 100 || 60\n13-01-2012 || || 40 || 160\n12-01-2012 || 200 || || 200")
+    // });
 });

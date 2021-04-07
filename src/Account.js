@@ -42,9 +42,3 @@ class Account {
     };
     
 }
-/*
-let account = new Account();
-account.deposit(200, "12-01-2012");
-account.withdraw(40, "13-01-2012");
-account.withdraw(100, "14-01-2012");
-*/
