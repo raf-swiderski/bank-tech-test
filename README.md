@@ -52,7 +52,7 @@ account.balance
 ```
 To print your bank statement:
 ```
-account.statement
+account.statement();
 ```
 
 Your functioning program should look something like this:
