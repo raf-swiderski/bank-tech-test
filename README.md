@@ -34,7 +34,7 @@ Next, you need to create a new account, in the console, type:
 ```
 let account = new Account;
 ```
-Note: You can name 'account' whatever you want (e.g. adams_account), but you need to use this name for all of the commands listen below.
+Note: You can name 'account' whatever you want (e.g. adams_account), but you need to use this name for all of the commands listed below.
 
 Now that your bank account is up and running, you can interact with your code using these commands:
 
